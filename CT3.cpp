@@ -6,6 +6,7 @@
 */
 #include <iostream>
 #include <limits>
+#include <conio.h>
 
 using namespace std;
 
@@ -62,6 +63,8 @@ int main()
 	delete p_Num1;
 	delete p_Num2;
 	delete p_Num3;
+
+	_getch(); //wait for key press to terminate program
 
 return 0;
 }
