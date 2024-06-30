@@ -47,11 +47,17 @@ int main()
 	int* p_Num3 = new int(num3);
 
 	//Print Integer 1
-	cout << "Integer 1 Value: " << *p_Num1 << endl;
-	cout << "Integer 1 Address: " << p_Num1 << endl;
+	cout << "Integer 1 Value: " << num1 << endl;
+	cout << "Pointer 1 Value: " << *p_Num1 << endl;
+	cout << "Pointer 1 Address: " << p_Num1 << endl;
 	//Print Integer 2
-	cout << "Integer 2 Value: " << *p_Num2 << endl;
-	cout << "Integer 2 Address: " << p_Num2 << endl;
+	cout << "Integer 2 Value: " << num2 << endl;
+	cout << "Pointer 2 Value: " << *p_Num2 << endl;
+	cout << "Pointer 2 Address: " << p_Num2 << endl;
+	//Print Integer 3
+	cout << "Integer 3 Value: " << num3 << endl;
+	cout << "Pointer 3 Value: " << *p_Num3 << endl;
+	cout << "Pointer 3 Address: " << p_Num3 << endl;
 
 	delete p_Num1;
 	delete p_Num2;
